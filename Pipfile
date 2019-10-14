@@ -8,6 +8,10 @@ pylint = "*"
 
 [packages]
 responder = "*"
+urllib2 = "*"
+urllib3 = "*"
+urllib = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
