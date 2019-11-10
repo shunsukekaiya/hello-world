@@ -10,15 +10,15 @@ weather_data = json.loads(response.text)
 
 print(weather_data['forecasts'][0]['telop'])
 
-# # 読み込んだJSONデータをディクショナリ型に変換
-# resp = json.loads(resp)
-# print ('**************************')
-# print(resp['title'])
-# print ('**************************')
-# print(resp['description']['text'])
+# 読み込んだJSONデータをディクショナリ型に変換
+resp = json.loads(response)
+print ('**************************')
+print(resp['title'])
+print ('**************************')
+print(resp['description']['text'])
 
-# for forecast in resp['forecasts']:
-#     print ('**************************')
-#     print(forecast['dateLabel']+'('+forecast['date']+')')
-#     print(forecast['telop'])
-# print ('**************************')
+for forecast in resp['forecasts']:
+    print ('**************************')
+    print(forecast['dateLabel']+'('+forecast['date']+')')
+    print(forecast['telop'])
+print ('**************************')
