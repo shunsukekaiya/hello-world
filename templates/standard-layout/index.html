@@ -28,15 +28,52 @@
     <main class="main">
       <section class="hot-toppic">
         <h2 class="hidden">HOT TOPPIC</h2>
+        <a href="#" class="hot-toppic" clearfix>
+          <img class="image" src="./images/hot-topic.jpg" alt="コーディング画面">
+          <div class="content">
+            <h3 class="title">実務で使えるHTML/CSS<br>モダンコーディングTIPS</h3>
+            <p class="desc">フロントエンドでの進化の勢いはとどまるところと知りません。新しい要素が増えて大幅に表現力が広がったHTML/CSSを活用して…</p>
+            <time class="date" datetime="2015-09-01">2015.09.01 TUE</time>
+          </div>
+        </a>
         <!-- hot-toppicのコンテンツ内容 -->
       </section>
       <section class="news">
-        <h2>NEWS</h2>
-        <!-- newsのコンテンツ内容 -->
+        <h2 class="heading">NEWS</h2>
+        <ul class="scroll-list">
+          <li class="scroll-item">
+            <a href="#">
+              <time class="date" datetime="2015-08-23">2015.08.23 SUN</time>
+              <span class="category news">NEWS</span>
+              <span class="title">WORKSを更新しました。</span>
+            </a>
+          </li>
+          <li class="scroll-item">
+            <a href="#">
+              <time class="date" datetime="2015-08-12">2015.08.23 SUN</time>
+              <span class="category">TOPIC</span>
+              <span class="title">CSSここまでできる！？ほんとに使えるCSSセレクタ10選！</span>
+            </a>
+          </li>
+        </ul>
       </section>
       <section class="articles">
         <h2 class="hidden">ARTICLES</h2>
         <!-- ARTICLESのコンテンツ内容 -->
+        <div class="clearfix">
+          <a href="#" class="article-box">
+            <h3 class="title">実務で使えるHTML/CSSモダンコーディングTIPS</h3>
+            <p class="desc">新しい要素が増えて大幅に表現力が広がったHTML5/CSS3を活用し、モダンなコーディングにチャレンジしましょう！</p>
+            <time class="date" datetime="2015-06-17">2015.06.17 WED</time>
+            <img class="image" src="./images/article.jpg" alt="コーディング画面">
+          </a>
+          <a href="#" class="article-box">
+            <h3 class="title">実務で使えるHTML/CSSモダンコーディングTIPS</h3>
+            <p class="desc">新しい要素が増えて大幅に表現力が広がったHTML5/CSS3を活用し、モダンなコーディングにチャレンジしましょう！</p>
+            <time class="date" datetime="2015.06.17">2016-06-17 WED</time>
+            <img class="image" src="./images/article.jpg" alt="コーディング画面">
+          </a>
+        </div>
       </section>
     </main>
     <div class="sidemenu"></div>
